@@ -14,6 +14,7 @@ suggestions[2] = {id: 2, description: "Toyota Car", price: 120000};
 suggestions[3] = {id: 3, description: "Ford Car", price: 150000};
 suggestions[4] = {id: 4, description: "Volkswagon Car", price: 200000};
 
+const port=process.env.PORT || 3000
 
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json());
@@ -49,6 +50,6 @@ app.delete('/product_suggestion/:id', function(req, res){
 	res.sendStatus(200);
 });
 
-http.listen(8080, function(){
-  	console.log('listening on *:8080');
+http.listen(port, function(){
+  	console.log('listening on *:'+port);
 });
