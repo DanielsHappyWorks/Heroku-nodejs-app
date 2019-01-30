@@ -4,7 +4,7 @@
 "description": "node app",
 "main": "promise_server.js",
 "scripts": {
-"start": "node app.js"
+"start": "node promise_server.js"
 },
 "repository": {
 "type": "git",
