@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Suggestions</title>
+    <link href="css/site.css" rel="stylesheet" />
+    <script src="scripts/jquery-1.10.2.js"></script>
+    <script src="scripts/ProductSuggestionsManage.js"></script>
+</head>
+
+<body>
+
+    <input type="text" id="id" placeholder="id"/> 
+    <button onclick="getProductSuggestion()">Get</button>
+    <br/>
+
+    <input type="text" id="description" placeholder="description"/> 
+    <br/>
+
+    <input type="text" id="price" placeholder="price"/> 
+    <br/>
+
+    <button onclick="insertProductSuggestion()">Insert</button>
+    <button onclick="updateProductSuggestion()">Update</button>
+    <button onclick="deleteProductSuggestion()">Delete</button>
+    
+</body>
+</html>
