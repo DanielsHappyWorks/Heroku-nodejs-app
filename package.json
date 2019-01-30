@@ -1,0 +1,19 @@
+{
+"name": "nodeapp",
+"version": "1.0.0",
+"description": "node app",
+"main": "promise_server.js",
+"scripts": {
+"start": "node app.js"
+},
+"repository": {
+"type": "git",
+"url": ""
+},
+"author": "",
+"license": "ISC",
+"bugs": {
+"url": ""
+},
+"homepage": ""
+}
