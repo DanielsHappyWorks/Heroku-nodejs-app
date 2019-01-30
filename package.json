@@ -1,19 +1,22 @@
 {
-"name": "nodeapp",
-"version": "1.0.0",
-"description": "node app",
-"main": "promise_server.js",
-"scripts": {
-"start": "node promise_server.js"
-},
-"repository": {
-"type": "git",
-"url": ""
-},
-"author": "",
-"license": "ISC",
-"bugs": {
-"url": ""
-},
-"homepage": ""
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "node app",
+  "main": "promise_server.js",
+  "scripts": {
+    "start": "node promise_server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
